@@ -16,7 +16,7 @@ public class Factorization extends JFrame{
         firstField = new JTextField(10);
 
         firstField.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
+            public void actionPerformed(ActionEvent event) {
                 if (Integer.parseInt(firstField.getText()) % 2 == 0) {
                     JOptionPane.showMessageDialog(Factorization.this,
                             "Ошибка,введите другое число ");
